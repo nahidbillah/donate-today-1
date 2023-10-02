@@ -1,0 +1,396 @@
+.header {
+  display: flex;
+}
+
+.header {
+  width: 1350px;
+  height: 669px;
+  background-image: url("../images/donation13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  text-align: center;
+}
+.header-section-h3 {
+  margin-top: 174px;
+  text-align: center;
+  margin-left: 307px;
+  margin-right: 307px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 65px;
+  font-weight: 700;
+}
+.header-section-p {
+  color: #fff;
+  font-family: Poppins;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 375px;
+  margin-right: 374px;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #ff5959;
+  width: 160px;
+  padding: 16px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 640px;
+  margin-right: 640px;
+}
+/* donate today section styles */
+.donate-today {
+  justify-content: center;
+  text-align: center;
+}
+.donate-today-title {
+  /* margin-left: 500px;
+  margin-right: 500px; */
+  margin-top: 130px;
+  color: #121212;
+  text-align: center;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.donate-today-description {
+  margin-top: 20px;
+  margin-right: 374px;
+  margin-left: 375px;
+  margin-bottom: 60px;
+  color: #707070;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.donate-rectangle {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+.donate-rectangle-amount {
+  border-radius: 5px;
+  background: #fafafa;
+  width: 135px;
+  height: 123px;
+  color: #707070;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.donate-rectangle-amount-200 {
+  border-radius: 5px;
+  border: 2px solid #ff5959;
+  background: #fee;
+  width: 136px;
+  height: 123px;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ff5959;
+  text-align: center;
+}
+
+.btn-secondary {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #ff5959;
+  width: 160px;
+  padding: 16px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+}
+.other-amount {
+  color: #b3b3b3;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+hr {
+  width: 765px;
+  height: 0px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #dadada;
+}
+
+/* Donation plan styles */
+.donation-plan {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 175px;
+  justify-content: space-between;
+  gap: 24px;
+}
+.donate-plan-title {
+  margin-top: 130px;
+  color: #121212;
+  text-align: center;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.donate-plan-description {
+  margin-right: 374px;
+  margin-left: 375px;
+  margin-top: 20px;
+  color: #707070;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.donate-food {
+  border-radius: 5px;
+  background: rgba(79, 157, 166, 0.1);
+  width: 360px;
+  height: 352px;
+  flex-shrink: 0;
+}
+.donate-shelter {
+  width: 360px;
+  height: 352px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgba(255, 89, 89, 0.1);
+}
+.education-for-child {
+  width: 360px;
+  height: 352px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff4d6;
+}
+.food-icon {
+  margin-top: 63.5px;
+  margin-left: 23px;
+  margin-right: 278.87px;
+}
+
+.food-title {
+  margin-left: 25px;
+  margin-right: 133px;
+  margin-top: 63.5px;
+  color: #121212;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.food-donate-description {
+  margin-left: 23px;
+  margin-right: 22px;
+  margin-bottom: 54px;
+  color: #707070;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.shelter-icon {
+  margin-top: 63.5px;
+  margin-left: 23px;
+  margin-right: 278.87px;
+}
+.shelter-title {
+  margin-left: 25px;
+  margin-right: 133px;
+  margin-top: 63.5px;
+  color: #121212;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.shelter-description {
+  margin-left: 23px;
+  margin-right: 22px;
+  margin-bottom: 54px;
+  color: #707070;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.frame-icon {
+  margin-top: 63.5px;
+  margin-left: 23px;
+  margin-right: 278.87px;
+}
+.frame-title {
+  margin-left: 25px;
+  margin-right: 87px;
+  margin-top: 63.5px;
+  color: #121212;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.education-donate-description {
+  margin-left: 23px;
+  margin-right: 22px;
+  margin-bottom: 54px;
+  color: #707070;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* your donation styles */
+.your-donation {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  justify-content: space-between;
+  gap: 24px;
+}
+.your-donation-title {
+  margin-top: 187.5px;
+  margin-left: 157px;
+  color: #121212;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.your-donation-description {
+  margin-left: 156px;
+  margin-bottom: 30px;
+  color: #707070;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.btn-contribute {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: #ff5959;
+  width: 230px;
+  padding: 16px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  margin-left: 156px;
+}
+.your-donation-img {
+  margin-top: 110px;
+  margin-right: 231px;
+  width: 80%;
+  height: 90%;
+}
+
+/* survive section styles */
+.survive {
+  display: flex;
+  justify-content: space-between;
+  gap: 94px;
+}
+.survive-img {
+  margin-top: 157px;
+  margin-left: 105px;
+  width: 73%;
+  height: 90%;
+}
+.survive-1{
+text-align: left;
+
+}
+
+.survive-title {
+  margin-top: 215px;
+  margin-left: -70px;
+  text-align: left;
+  color: #121212;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.survive-description {
+  margin-left: -70px;
+  color: #707070;
+  font-feature-settings: "clig" off, "liga" off;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.btn-contribute-1{
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: #ff5959;
+  width: 230px;
+  padding: 16px 12px;
+  gap: 8px;
+  border: 0;
+  margin-left: -70px;
+}
