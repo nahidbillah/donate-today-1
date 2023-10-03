@@ -350,9 +350,8 @@ hr {
   width: 73%;
   height: 90%;
 }
-.survive-1{
-text-align: left;
-
+.survive-1 {
+  text-align: left;
 }
 
 .survive-title {
@@ -378,7 +377,7 @@ text-align: left;
   font-weight: 400;
   line-height: 28px; /* 155.556% */
 }
-.btn-contribute-1{
+.btn-contribute-1 {
   color: #fff;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
@@ -393,4 +392,81 @@ text-align: left;
   gap: 8px;
   border: 0;
   margin-left: -70px;
+}
+/* update setion styles */
+.update {
+  justify-content: center;
+}
+
+.update-title {
+  margin-top: 200px;
+  color: #121212;
+  text-align: center;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.update-description {
+  color: #707070;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin-left: 375px;
+  margin-right: 374px;
+}
+.subscribe {
+  background: #fff4d6;
+  width: 809px;
+  height: 200px;
+  margin-left: 276px;
+  margin-right: 315px;
+  margin-bottom: 130px;
+}
+.text-box-email {
+  margin-top: 76px;
+  margin-bottom: 76px;
+  width: 275px;
+  height: 48px;
+  border-radius: 5px 0px 0px 5px;
+  background: #d9d9d9;
+  border: 0;
+  padding-right: 0;
+}
+.btn-subscribe {
+  width: 157px;
+  height: 48px;
+  border-radius: 0px 5px 5px 0px;
+  background: #ff5959;
+  border: 0;
+  padding-left: 0;
+}
+.footer {
+  background: var(--default-black, #0b0d17);
+  display: flex;
+  width: 150px;
+  height: 177px;
+  padding: 43px 629px 42px 653px;
+  align-items: center;
+}
+.footer-title {
+  color: #ff5959;
+  font-family: Lobster;
+
+}
+.footer-description{
+  color: var(--text-gray-300, #D9DBE1);
+font-feature-settings: 'liga' off;
+
+/* Body / Body 2 */
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
 }
